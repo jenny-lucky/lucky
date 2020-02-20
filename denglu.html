@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录注册页面</title>
+<link rel="stylesheet" type="text/css" href="css/denglu.css">
+</head>
+<body>
+<div class="head-login">
+    <div class="zuipin-wrapper">
+        <div class="zuipin-logo"><img src="img/11.png" alt=""></div>
+    </div>
+</div>
+<div class="zuipin-page-content">
+    <div class="login-container" >
+        <div class="zuipin-wrapper login-content clearfix">
+            
+          <!--   <div class="left-img" data-bgColor="#f4dacf">
+<!--     <a href="/page/20191122pc"> -->
+     <!--    <img src="img/222.jpg" height="600" width="750" alt="">
+   <!--  </a>  -->
+<!-- </div> --> 
+
+
+            <div class="right-content">
+                <ul class="pr login-tab clearfix">
+    <li class="on">立即注册</li>
+    <li>账号登录</li>
+</ul>
+<ul class="pr login-methods">
+
+    <li class="message-login on">
+        <form action="login_insert_data.php"   method="post"  class="login-form">
+            <input class="account" name="user_name" id="user_name" type="text" placeholder="账号" maxlength="11">
+            
+            
+           <input class="pwd" name="user_password" id="user_password"type="password" placeholder="密码">
+             
+            <button class="login-btn phoneLogin" type="submit">立即注册</button>
+        </form>
+    </li>
+
+     <li class="account-login">
+        <form action="logincheck.php"  method="post"  class="login-form">
+        <!--     <input type="hidden" name="_token" value="YylQI1nUZnm9536lqnXSx5h1Ponkf6qXFgejw00W"> -->
+            <input class="account" name="user_name" id="user_name"  type="text" placeholder="账号">
+            <input class="pwd" name="user_password" id="user_password"  type="password" placeholder="密码">
+            <button class="login-btn accountLogin" type="submit">立即登录</button>
+        </form>
+    </li>
+
+</ul>
+
+<div class="pr regist-forget-box">
+    <p>若无账号，使用验证码登录成功后默认创建账号</p>
+  
+    <a href="/findPsd" > 忘记密码？</a>
+</div>
+<div class="other-methods">
+    <p>其他方式登录</p>
+    <ul class="methods-box clearfix thirdlogin">
+
+        <li class="zhifubao"><a href="https://openauth.alipay.com/oauth2/appToAppAuth.htm?app_id=2017051007187328&redirect_uri=https://www.zuipin.cn/alipayLogin"></a></li>
+        <li class="qq"><a href="https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=100263805&redirect_uri=https://www.zuipin.cn/qqLogin&state=1 " ></a></li>
+        <li class="weixin"><a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxb3a5c0d86b634f9e&redirect_uri=https%3A%2F%2Fwww.zuipin.cn%2FwxLogin&response_type=code&scope=snsapi_login&state=YylQI1nUZnm9536lqnXSx5h1Ponkf6qXFgejw00W#wechat_redirect"></a></li>
+
+    </ul>
+</div>
+            </div>
+
+        </div>
+</div>
+</div>
+
+</body>
+
+ <script src="js/jquery-3.2.1.min.js"></script>
+
+<script>
+    
+    $(function(){
+
+        sessionStorage.backUrl="https://www.zuipin.cn/";
+
+        $('login-methods input').blur(function(){
+            if(!$(this).val()){
+                $(".tip-red").css('display','none');
+            }
+        });
+
+        $('.login-tab li').on("click",function(){
+            var index = $(this).index();
+            $(this).addClass('on').siblings().removeClass('on');
+            $('.login-methods li').eq(index).addClass('on').siblings().removeClass('on');
+            $(".mistake_tips").css('display','none');
+            if(index == 1){
+                $(".regist-forget-box a").css("display",'block');
+                $(".regist-forget-box p").css("display",'none');
+            }else{
+                $(".regist-forget-box a").css("display",'none');
+                $(".regist-forget-box p").css("display",'block');
+            }
+        });
+    });
+    </script>
+
+<script type="text/javascript">
+
+   //  document.onkeydown=keyDownSearch;
+   function subform(){
+      $('#list').submit();
+   }
+   $('#sub').click(function(){
+      subform();
+   })
+   function keyDownSearch(e) {
+      // 兼容FF和IE和Opera
+      var theEvent = e || window.event;
+      var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
+      if (code == 13) {
+         subform();
+      }
+      return false;
+   }
+</script>
+
+
+
+<script>
+    var color = $('.login-content .left-img').attr('data-bgColor')
+    $('.login-container').css('background', color);
+</script>

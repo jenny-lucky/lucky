@@ -1,0 +1,227 @@
+/*
+* @Author: 洁
+* @Date:   2019-12-11 18:02:48
+* @Last Modified by:   洁
+* @Last Modified time: 2020-02-18 12:01:27
+*/
+                               #pdtDetail .repImg {border-bottom:2px solid #727272;}
+	                         	#pdtDetail .repImg img {margin-bottom:40px;}
+                                   .ptext{margin-left:5.5% !important; margin-top:-4% !important;}
+                                    #pdtDetail .repImg {
+                                        border-bottom: 2px solid #727272
+                                    }
+									 .promotion_wrap.onlyWeb {
+                                    position: relative;
+                                    margin-top: 20px
+                                   }
+
+                                .promotion_wrap.onlyMobile {
+                                    margin-bottom: 20px
+                                }
+
+                                .promotion_wrap .red {
+                                    color: #f20000;
+                                }
+                                    .mobile #pdtDetail .skinCare .p-d-cosmetic .infoColumn li .txt p,
+                                    .tablet #pdtDetail .skinCare .p-d-cosmetic .infoColumn li .txt p {
+                                        padding: 10px 15px 0 150px;
+                                    }
+
+                                    .web #pdtDetail section.p-d-effect .img {
+                                        text-align: left;
+                                    }
+
+                                    .web #pdtDetail section .conWrap .img {
+                                        width: auto;
+                                    }
+
+                                    .web #pdtDetail section .conWrap .txt {
+                                        width: 395px;
+                                    }
+
+                                    .web #pdtDetail section .t-group.group2 {
+                                        margin-top: 50px;
+                                    }
+
+                                    .web #pdtDetail section .conWrap.list1 li {
+                                        float: left;
+                                        width: auto;
+                                    }
+
+                                    .web11 {
+                                        display: block;
+                                    }
+
+                                    .web11mobile {
+                                        display: none;
+                                    }
+
+
+                                    .info01 {
+                                        background: #231f20 none repeat scroll 0 0;
+                                        border-radius: 12px;
+                                        color: #fff;
+                                        display: inline-block;
+                                        height: 22px;
+                                        line-height: 22px;
+                                        margin-bottom: 20px;
+                                        padding: 0 7px;
+                                        text-align: center;
+                                    }
+
+                                    .ptext {
+                                        margin-left: 7%;
+                                        margin-top: -4%;
+                                    }
+
+                                    .img11 {
+                                        float: left;
+                                        display: block;
+                                    }
+
+                                    .img11mobile {
+                                        display: none;
+                                    }
+
+                                    .img22 {
+                                        margin-left: 10px;
+                                        display: block;
+                                    }
+
+                                    .img22mobile {
+                                        display: none;
+                                    }
+
+                                    .img13 {
+                                        float: right;
+                                        display: block;
+                                        margin-top: 2%;
+                                    }
+
+                                    .tex123 {
+                                        font-size: 20px;
+                                    }
+
+                                    .web #pdtDetail section .tit01 {
+                                        box-sizing: border-box;
+                                        color: #231f20;
+                                        padding-right: 17px;
+                                        width: 100%;
+                                        font-size: 20px;
+                                    }
+
+                                    @media screen and (min-width: 1086px) {
+                                        .img11 {
+                                            float: left;
+                                            display: block;
+                                        }
+
+                                        .img11mobile {
+                                            display: none;
+                                        }
+
+                                        .img22 {
+                                            margin-left: 10px;
+                                            display: block;
+                                        }
+
+                                        .img22mobile {
+                                            display: none;
+                                        }
+                                    }
+
+                                    @media (max-width: 1040px) and (min-width: 830px) {
+                                        .img11 {
+                                            float: left;
+                                            display: block;
+                                            margin-left: 5%;
+                                        }
+
+                                        .img11mobile {
+                                            display: none;
+                                        }
+
+                                        .img22 {
+                                            margin-left: 10px;
+                                            display: block;
+                                        }
+
+                                        .img22mobile {
+                                            display: none;
+                                        }
+                                    }
+
+                                    @media screen and (max-width: 768px) {
+                                        .web11 {
+                                            display: none;
+                                        }
+
+                                        .web11mobile {
+                                            display: block;
+                                        }
+
+                                        .ptextmobile {
+                                            margin-left: 4%;
+                                            margin-top: -3%;
+                                        }
+
+                                        .img11 {
+                                            display: none;
+                                        }
+
+                                        .img11mobile {
+                                            display: block;
+                                        }
+
+                                        .img22 {
+                                            display: none;
+                                        }
+
+                                        .img22mobile {
+                                            display: block;
+                                        }
+
+                                        .img13 {
+                                            float: none;
+                                            display: block;
+                                            margin-top: 3%;
+                                        }
+
+                                        .tex123 {
+                                            font-size: 14px;
+                                        }
+
+                                        .web33 .web33-Tit {font-size:14px;}
+                                        .web44 p {padding-left:0;}
+                                        .web44 .tit01 {margin-bottom:10px; text-align:left; font-size:14px; color:#993d34;}
+                                        .web77 .detail {padding-left:24px;}
+
+                                    }
+
+
+                                    @media screen and (max-width: 360px) {
+                                        .ptextmobile {
+                                            margin-left: 9%;
+                                            margin-top: -6%;
+                                        }
+                                    }
+                                    .web #pdtDetail section .tit {width:27%;}
+                                    .web #pdtDetail section .tit01 {box-sizing: border-box;color: #231f20;padding-right: 17px;width: 100%;font-size:20px;}
+                                    #pdtDetail .repImg {border-bottom:2px solid #727272;}
+                                    /*#pdtDetail .repImg img {margin-bottom:40px;}*/
+
+                                    #pdtDetail section.web33 .img {display:table-cell;}
+                                    #pdtDetail section.web33 .img img {margin:20px 0;}
+                                    .web33 .web33-Tit {display:block; font-size:24px; color:#993d34; text-align:center;}
+                                    .web33 .detail {margin-top:30px;}
+                                    .web44 .detail {margin-top:30px;}
+                                    .web #pdtDetail section.web44 .tit01 {margin-bottom:20px; padding-left:60px; font-size:24px; text-align:left; color:#993d34;}
+                                    .web44 p {margin-bottom:50px; padding-left:60px; text-align:left;}
+                                    .web77 {text-align:left;}
+                                    .web77 .detail {text-indent:-16px;}
+
+                                    .movieYouku {max-width:620px; margin:0 auto}
+                                    .movieYouku .vod {overflow:hidden;position:relative;width:100%;height:0;padding-bottom:62.91%;margin:30px 0 20px;}
+                                    .movieYouku .vod iframe, .movieYouku .vod object {position:absolute;top:0;left:0;width:100%;height:100%;}
+                                    .ban45 {margin-bottom:100px;}
+                                    .mobile .ban45 {margin-bottom:40px;}
